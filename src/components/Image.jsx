@@ -1,7 +1,7 @@
 
-const Image = () => {
+const Image = ({charImageUrl}) => {
   return (
-    <img />
+    <img src={charImageUrl}/>
   )
 }
 

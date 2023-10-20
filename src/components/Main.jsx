@@ -4,7 +4,7 @@ import CharacterList from "./CharacterList";
 const Main = () => {
   return (
     <main>
-      <SubTitle propText="Subtitulo"/>
+      <SubTitle propText="Photo Galery"/>
       <CharacterList />
     </main>
   );

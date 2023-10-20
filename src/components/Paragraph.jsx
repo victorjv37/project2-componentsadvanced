@@ -1,7 +1,7 @@
 
-const Paragraph = () => {
+const Paragraph = ({charName, charStatus, footerText}) => {
   return (
-    <p>Paragraph</p>
+      <p>{charName} <br /> {charStatus} {footerText}</p>    
   )
 }
 
